@@ -1,9 +1,9 @@
         .hero-bg {
-            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(IMG_7064.jpg);
-            background-size: cover;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(IMG_7064.jpg);
+             background-size: cover;
             background-position: center;
             background-attachment: fixed;
-            background-size:contain;
+            background-size:inherit;
         }
         .gallery-item {
             transition: all 0.3s ease;
@@ -16,7 +16,7 @@
         }
         .gallery-item:hover {
             transform: scale(1.02) translateY(-5px);
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
         }
         .filter-btn.active {
             background-color: #2563eb;
