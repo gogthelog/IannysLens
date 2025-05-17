@@ -147,6 +147,8 @@
                 this.reset();
             });
             
+            
+            // Smooth scrolling for anchor links
             document.querySelectorAll('a[href^="#"]').forEach(anchor => {
                 anchor.addEventListener('click', function(e) {
                     e.preventDefault();
@@ -160,6 +162,7 @@
                             behavior: 'smooth'
                         });
                         
+                        // Close mobile menu if open
                         if (!mobileMenu.classList.contains('hidden')) {
                             mobileMenu.classList.add('hidden');
                         }
